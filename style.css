@@ -1,0 +1,368 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.thehead{
+  display: none;
+}
+
+.cointainer{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.234);
+    width: 60%;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    /* border: 1px solid red; */
+    /* background-color: grey; */
+    display: flex;
+    height: 41vh;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 3px;
+}
+
+
+.left img{
+    width: 100%;
+    height: 40.7vh;
+    margin-top: 5px;
+}
+
+.right{
+    padding: 50px;
+}
+
+.right svg{
+  margin-left: 100%;
+  margin-bottom: 10%;
+}
+
+.rightq{
+    padding-bottom: 30px;
+}
+
+.rightq h2{
+    text-align: center;
+    font-weight: 200;
+}
+
+.rightq span{
+    font-weight: 900;
+}
+
+
+.rightq p{
+    font-size: 13px;
+    margin-left: 20px;
+    padding-top: 10px;
+    width: max-content;
+}
+
+.rightw input{
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.258);
+    border: none;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.rightw ::placeholder{
+    padding-left: 10px;
+}
+
+.rightw button{
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 100px;
+  width: 100%;
+  height: 10vh;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.234);
+}
+
+.left-head h1 {
+  font-weight: 300;
+  transition: all 0.3s ease;
+}
+
+.left-head h1:hover{
+  letter-spacing: 3px;
+}
+
+.left-head span {
+  font-weight: 900;
+}
+
+.right-head {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.right-head span {
+  font-weight: 800;
+}
+
+.right-head button {
+  color: white;
+  background-color: black;
+  padding: 10px 35px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.right-head button:hover{
+  color: black;
+  background-color: rgba(0, 0, 0, 0.425);
+
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: rgba(0, 0, 0, 0.37); */
+  height: 70vh;
+  padding: 0 100px;
+}
+
+.fls {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 70px;
+}
+
+.fls p {
+  font-weight: 900;
+}
+
+.sls {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.sls h1 {
+  font-size: 40px;
+}
+
+.sls span {
+  color: white;
+  background-color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 50px;
+}
+
+.sls p {
+  max-width: 100%;
+  font-size: 16px;
+  padding-bottom: 60px;
+}
+
+.tls {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding: 20px 0;
+}
+
+.tls p {
+  border: 2px solid black;
+  padding: 20px;
+  font-weight: 900;
+}
+
+.tls p:hover{
+  background-color: black;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* align-items: center; */
+}
+
+.right-side h1 {
+  /* padding-left: 60%; */
+  text-align: right;
+}
+
+.chair_2l{
+  display: none;
+}
+
+.right-side p{
+    text-align: right;
+}
+
+.alone {
+  margin: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 100px;
+}
+
+.quest1{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.317);
+  padding: 13px;
+}
+
+.quest2{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.317);
+  padding: 13px;
+}
+
+.quest3{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.317);
+  padding: 13px;
+}
+
+.quest4{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.317);
+  padding: 13px;
+}
+
+.questin{
+  width: 50%;
+}
+
+.questin p{
+  display: none;
+  /* border: 1px solid red; */
+  background-color: rgba(0, 0, 0, 0.162);
+  color: black;
+  /* margin: 5px 0; */
+}
+
+
+@media screen and (max-width:768px){
+
+  .left img{
+    display: none;
+  }
+
+  .cointainer{
+    height: 50vh;
+    width: 80%;
+  }
+
+  .rightw input{
+    border-radius: 2%;
+  }
+
+  .rightw button{
+    margin-top: 10px;
+  }
+
+  
+
+  .right{
+    margin-bottom: 40px;
+  }
+
+    header{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .right-head button{
+      display: block !important;
+    }
+
+    .right-head span, p{
+        display: none;
+    }
+
+    .hero{
+        flex-direction: column;
+    }
+    .fls{
+        padding-top: 30px;
+    }
+
+    .sls h1{
+        font-size: 25px;
+        width: max-content;
+    }
+
+    .sls span{
+        padding-top: 1px;
+        padding-right: 35px;
+    }
+
+    .sls p{
+        display: none;
+    }
+
+    .tls p{
+        padding: 10px;
+    }
+
+    .right-side p{
+        display: none;
+    }
+
+    .right-side{
+        padding-bottom: 30%;
+    }
+
+    .right-side img{
+        width: 100%;
+    }
+
+    .right-side h1{
+        font-size: 23px;
+    }
+
+    .alone img{
+        width: 100%;
+        height: 30vh;
+    }
+
+    .questin{
+      width: 80%;
+  }
+  
+}
